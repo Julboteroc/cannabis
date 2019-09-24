@@ -1,0 +1,1 @@
+[["KY014578.1","KY014578.1.path1"],"KY014578.1","KY014578.1","tig00050071_overlapping_hits_sub_region",70349,74497]

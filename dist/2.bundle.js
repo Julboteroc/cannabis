@@ -3,7 +3,7 @@ webpackJsonp([2],{
 /***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(583), __webpack_require__(584), __webpack_require__(587)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(dojo, has){
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(580), __webpack_require__(581), __webpack_require__(584)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(dojo, has){
 	// module:
 	//		dojo/_base/lang
 
@@ -625,7 +625,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 /***/ 333:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(583), __webpack_require__(584), __webpack_require__(128)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(dojo, has, lang){
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(580), __webpack_require__(581), __webpack_require__(128)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(dojo, has, lang){
 	// module:
 	//		dojo/_base/declare
 
@@ -2973,7 +2973,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;var _typeof = typeof Symbol === "function" && 
 /***/ 51:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(583), __webpack_require__(584), __webpack_require__(128)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(dojo, has, lang){
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(580), __webpack_require__(581), __webpack_require__(128)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(dojo, has, lang){
 	// module:
 	//		dojo/_base/array
 
@@ -3328,10 +3328,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 583:
+/***/ 580:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(620), __webpack_require__(584), __webpack_require__(608), __webpack_require__.dj.c(module.i), __webpack_require__.dj.m(module)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(global, has, config, require, module){
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(617), __webpack_require__(581), __webpack_require__(604), __webpack_require__.dj.c(module.i), __webpack_require__.dj.m(module)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(global, has, config, require, module){
 	// module:
 	//		dojo/_base/kernel
 
@@ -3647,10 +3647,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 584:
+/***/ 581:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(620), __webpack_require__.dj.c(module.i), __webpack_require__.dj.m(module)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(global, require, module){
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(617), __webpack_require__.dj.c(module.i), __webpack_require__.dj.m(module)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(global, require, module){
 	// module:
 	//		dojo/has
 	// summary:
@@ -3849,10 +3849,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 587:
+/***/ 584:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(584)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(has){
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(581)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(has){
 	// module:
 	//		dojo/sniff
 
@@ -3949,10 +3949,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 608:
+/***/ 604:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(620), __webpack_require__(584), __webpack_require__.dj.c(module.i)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(global, has, require){
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(617), __webpack_require__(581), __webpack_require__.dj.c(module.i)], __WEBPACK_AMD_DEFINE_RESULT__ = (function(global, has, require){
 	// module:
 	//		dojo/_base/config
 
@@ -4141,7 +4141,7 @@ return {
 
 /***/ }),
 
-/***/ 620:
+/***/ 617:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(){
@@ -4176,11 +4176,11 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(){
 	'dojo/io-query':338,
 	'JBrowse/View/GranularRectLayout':344,
 	'JBrowse/Util/dot-object':430,
-	'dojo/_base/kernel':583,
-	'dojo/has':584,
-	'dojo/sniff':587,
-	'dojo/_base/config':608,
-	'dojo/global':620
+	'dojo/_base/kernel':580,
+	'dojo/has':581,
+	'dojo/sniff':584,
+	'dojo/_base/config':604,
+	'dojo/global':617
 })
 })();
 //# sourceMappingURL=2.bundle.js.map

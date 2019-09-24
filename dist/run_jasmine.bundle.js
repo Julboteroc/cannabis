@@ -294,7 +294,7 @@
 /******/ 			// ./_to-iobject = 15
 /******/ 			// ./_object-gopd = 16
 /******/ 			// ./_object-gpo = 17
-/******/ 			// ../../modules/_core = 18
+/******/ 			// ./modules/_core = 18
 /******/ 			// ./_ctx = 19
 /******/ 			// ./_cof = 20
 /******/ 			// ./_strict-method = 21
@@ -603,7 +603,7 @@
 /******/ 			// core-js/fn/regexp/escape = 329
 /******/ 			// ../../modules/core.regexp.escape = 330
 /******/ 			// ./_replacer = 331
-/******/ 			// /var/www/html/Moringa_genome/build/dojo-webpack-plugin-loader/dojo/dojo.js = 332
+/******/ 			// /var/www/html/csmb/build/dojo-webpack-plugin-loader/dojo/dojo.js = 332
 /******/ 			'tests/js_tests/main.js':370
 /******/ 			// ./spec/ExportGFF3.spec.js = 371
 /******/ 			// ./spec/QueryParamConfigMapper.spec.js = 372
@@ -14892,7 +14892,7 @@ __webpack_require__.e/* require */(0/* aggressive-merge */).then(function() { va
 
         it('accesses volvox bigbed', function () {
             var features = [];
-            var expectedFeatureData = __webpack_require__(581);
+            var expectedFeatureData = __webpack_require__(578);
             deleteUniqueIDSerial(expectedFeatureData);
 
             b.getFeatures({ ref: 'ctgA', start: 1, end: 50000 }, function (f) {
@@ -15020,7 +15020,7 @@ __webpack_require__.e/* require */(0/* aggressive-merge */).then(function() { va
             browser: browser,
             blob: new XHRBlob('../data/human_bigbed/gencode.bb')
         });
-        var expectedFeatureData = __webpack_require__(582);
+        var expectedFeatureData = __webpack_require__(579);
 
         it('constructs', function () {
             expect(b).toBeTruthy();

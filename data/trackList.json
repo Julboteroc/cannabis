@@ -1,96 +1,225 @@
 {
-   "formatVersion" : 1,
-   "tracks" : [
-      {
-         "category" : "Reference sequence",
-         "chunkSize" : 20000,
-         "key" : "Reference sequence",
-         "label" : "DNA",
-         "seqType" : "dna",
-         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
-         "type" : "SequenceTrack",
-         "urlTemplate" : "seq/{refseq_dirpath}/{refseq}-"
+  "formatVersion": 1,
+  "dataset_id": "Cannabis_sativa",
+  "tracks": [
+    {
+      "key": "Reference sequence",
+      "label": "DNA",
+      "storeClass": "JBrowse/Store/Sequence/StaticChunked",
+      "type": "SequenceTrack",
+      "urlTemplate": "seq/{refseq_dirpath}/{refseq}-",
+      "category": "Reference sequence",
+      "chunkSize": 20000,
+      "seqType": "dna"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "AB057805.1",
+      "label": "AB057805.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
       },
-      {
-         "compress" : 0,
-         "gradient" : "true",
-         "key" : "Gene prediction",
-         "label" : "Gene prediction",
-         "menuTemplate" : [
-            {
-               "action" : "contentDialog",
-               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
-               "iconClass" : "dijitIconBookmark",
-               "label" : "View Feature Sequence"
-            }
-         ],
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature"
-         },
-         "trackType" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "type" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "urlTemplate" : "tracks/Gene prediction/{refseq}/trackData.json"
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/AB057805.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "AB164375.1",
+      "label": "AB164375.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
       },
-      {
-         "compress" : 0,
-         "key" : "Gene prediction_2",
-         "label" : "Gene prediction_2",
-         "onClick" : {
-            "label" : "Feature name {name}\nFeature start {start}\nFeature end {end}",
-            "title" : "{name} {type}"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature"
-         },
-         "trackType" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "type" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "urlTemplate" : "tracks/Gene prediction_2/{refseq}/trackData.json"
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/AB164375.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "AB292682.1",
+      "label": "AB292682.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
       },
-      {
-         "compress" : 0,
-         "gradient" : "true",
-         "key" : "csmb",
-         "label" : "csmb",
-         "menuTemplate" : [
-            {
-               "IconClass" : "dijitIconSearch",
-               "action" : "iframeDialog",
-               "label" : "Pathway",
-               "title" : "ACID",
-               "url" : "https://julboteroc.github.io/img/"
-            }
-         ],
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature"
-         },
-         "trackType" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "type" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "urlTemplate" : "tracks/csmb/{refseq}/trackData.json"
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/AB292682.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "BK010679.1",
+      "label": "BK010679.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
       },
-      {
-         "compress" : 0,
-         "gradient" : "true",
-         "key" : "csmb_2",
-         "label" : "csmb_2",
-         "menuTemplate" : [
-            {
-               "IconClass" : "dijitIconSearch",
-               "action" : "iframeDialog",
-               "label" : "Pathway",
-               "title" : "ACID",
-               "url" : "bna00195.png"
-            }
-         ],
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature"
-         },
-         "trackType" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "type" : "NeatCanvasFeatures/View/Track/NeatFeatures",
-         "urlTemplate" : "tracks/csmb_2/{refseq}/trackData.json"
-      }
-   ]
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/BK010679.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "JN859188.1",
+      "label": "JN859188.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/JN859188.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KF679784.1",
+      "label": "KF679784.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KF679784.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KY014568.1",
+      "label": "KY014568.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KY014568.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KY014569.1",
+      "label": "KY014569.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KY014569.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KY014570.1",
+      "label": "KY014570.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KY014570.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KY014575.1",
+      "label": "KY014575.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KY014575.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KY014577.1",
+      "label": "KY014577.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KY014577.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KY014578.1",
+      "label": "KY014578.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KY014578.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "KY014579.1",
+      "label": "KY014579.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/KY014579.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "XM_030625939.1",
+      "label": "XM_030625939.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/XM_030625939.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "XM_030641025.1",
+      "label": "XM_030641025.1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/XM_030641025.1/{refseq}/trackData.json"
+    },
+    {
+      "compress": 0,
+      "gradient": "true",
+      "key": "Gene_prediction",
+      "label": "Gene_prediction",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "style": {
+        "className": "feature",
+        "color": "function(feature) { return 'coral' ; }"
+      },
+      "trackType": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "type": "NeatCanvasFeatures/View/Track/NeatFeatures",
+      "urlTemplate": "tracks/Gene_prediction/{refseq}/trackData.json"
+    }
+  ]
 }

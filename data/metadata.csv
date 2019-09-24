@@ -1,0 +1,18 @@
+label,key,Product,Pathway,annotation
+DNA,Reference sequence,,Cannabinoid,-
+AB057805.1,AB057805.1,tetrahydrocannabinolic acid synthase precursor,Cannabinoid,tig00050319_overlapping_hits_sub_region:20950:22814
+AB164375.1,AB164375.1, olivetol synthase,Cannabinoid,Scaffold_2:3930142:3931775
+AB292682.1,AB292682.1,cannabidiolic acid synthase,Cannabinoid,tig00436260_overlapping_hits_sub_region:1448:7787
+BK010679.1,BK010679.1,prenyltransferase 2 (PT2),Cannabinoid,Scaffold_1:4790703:4796043
+JN859188.1,JN859188.1,acyl-activating enzyme,Cannabinoid,Scaffold_11:466594:468565
+KF679784.1,KF679784.1,desaturase,Cannabinoid,Scaffold_14:3924978:3929097
+KY014568.1,KY014568.1,DXR,Cannabinoid,tig00024551_overlapping_hits_sub_region:132:387
+KY014569.1,KY014569.1,IDI,Cannabinoid,Scaffold_34:101209:106468
+KY014570.1,KY014570.1,HDS,Cannabinoid,tig00022687_overlapping_hits_sub_region:9024:12860
+KY014575.1,KY014575.1,CMK,Cannabinoid,tig00049823_overlapping_hits_sub_region:59346:62415
+KY014577.1,KY014577.1,DXS2,Cannabinoid,tig00014459_overlapping_hits_sub_region:53580:55632
+KY014578.1,KY014578.1,MCT,Cannabinoid,tig00050071_overlapping_hits_sub_region:70350:74497
+KY014579.1,KY014579.1,HDR ,Cannabinoid,tig00012314_overlapping_hits_sub_region:39722:43659
+XM_030625939.1,XM_030625939.1,atty acid hydroperoxide lyas,Cannabinoid,Scaffold_1:16402956:16406759
+XM_030641025.1,XM_030641025.1,lipoxygenase,Cannabinoid,tig00010375_overlapping_hits_sub_region:18227:26438
+Gene_prediction,Gene_prediction,-,Cannabinoid,-
